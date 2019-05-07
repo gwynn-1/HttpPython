@@ -3,7 +3,7 @@ import requests
 class HttpSmartApiService:
     "Đối tượng gọi Smart Api"
     # domain = "http://localhost:90/"
-    domain = "http://139.59.237.230:8000"
+    domain = "http://66.42.56.163:8000"
 
     @staticmethod
     def postApi(api, body, jwt=None):
